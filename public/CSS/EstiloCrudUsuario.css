@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+#menu{
+    background: #000000;
+    position: fixed;
+    width: 5.5%;
+    height: 100%;
+}
+
+#menu ul li a{
+    color: rgb(238, 233, 233);
+    list-style: none;
+    border:0;
+    text-decoration: none;
+}
+
+
+#menu ul li {
+    color: rgb(238, 233, 233);
+    list-style: none;
+    
+    border:0;
+}
+
+
+#alinear{
+    border: 0;
+}
+
+
+#SeccionTabla{
+    
+    margin-top: 2%;
+}
+#Encabezado{
+    background:#013950;
+    color: rgb(253, 252, 252);
+}
+
+#Titulo{
+    margin-top: 3%;
+}
+
+#Contenido{
+    position: absolute;
+    /*overflow-y: scroll;*/
+    left: 10%;
+    /*left: 7%;*/
+  
+    width: 75%;
+    /*width: 90%;*/
+    max-height: 95%;
+    border-radius: 7px;
+    transition: all 0.6s ease;
+    /*
+    display: inline;
+    opacity: 0;
+    */
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+table{
+  table-layout: fixed;
+}
+
+#miTablaPersonalizada th{
+  width: 130px;
+  overflow: auto;
+  border: 1px solid;
+}
+
+#Lista{
+    margin-bottom: 7%;
+}
+#Lista li{
+  
+    padding-bottom:25%;
+    padding-top:25%;
+}
+
+
+#Lista li:hover {
+    color: rgb(21, 126, 192);
+}
+
+
+.InfoMenu{
+    font-size: 15px;
+}
+
+#Bar{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-color:#0095ff ;
+}
+
+#texto{
+    font-size: 15px;
+}
+
+.tituloModal{
+    margin-left: 10%;
+}
+
+
+#ListaOpciones li{
+    display: inline;
+}
+
+
+#btnCerrar{
+    color:white;
+    background: #000000;
+}
+
+#btnCerrar:hover{
+    color: rgb(21, 126, 192);
+}
